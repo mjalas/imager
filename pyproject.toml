@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "imager"
+version = "0.0.1"
+description = "Image processing tools"
+authors = ["Mats Jalas <mats.jalas@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pillow = "^9.3.0"
+typer = "^0.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
