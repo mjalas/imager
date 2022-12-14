@@ -32,6 +32,11 @@ def show_image(input_image_file: str):
         print(image.mode)
         image.show()
 
+@app.command()
+def show_details(input_image_file: str):
+    with Image.open(input_image_file) as image:
+        print(f'Mode: {image.mode}')
+        print(f'Format: {image.format}')
 
 if __name__ == '__main__':
     app()
