@@ -1,0 +1,2 @@
+export VIRTUAL_ENV="<path_to_project>/imager/.venv"
+load_prefix "<path_to_project>/imager/.venv"
